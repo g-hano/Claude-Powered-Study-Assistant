@@ -54,9 +54,11 @@ Example prompts and outputs:
 ```python
 Prompt = "can you read 'Cihan Yalçın.pdf' and summarize it for me."
 ```
-![pdf](imgs\pdf.png)
+![pdf](img/pdf.png)
+
+---
 
 ```python
 Prompt = "search YouTube for Machine Learning"
 ```
-![pdf](imgs\yt.png)
+![pdf](img/yt.png)
