@@ -1,4 +1,4 @@
-# LLM Study Assistant
+# Claude Powered Study Assistant
 
 This is a Python-based study assistant powered by an LLM (Large Language Model). It provides various tools to assist with different tasks related to research, coding, note-taking, and more. Below is a description of each tool along with its capabilities and usage instructions.
 
