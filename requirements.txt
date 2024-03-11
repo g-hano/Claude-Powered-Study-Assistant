@@ -1,0 +1,5 @@
+anthropic==0.18.0
+langchain-community==0.0.27
+PyPDF2==3.0.1
+youtube-search-python==1.6.6
+wikipedia==1.4.0
