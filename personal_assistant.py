@@ -11,6 +11,7 @@ client = Anthropic(
     api_key=os.environ.get("ANTHROPIC"),
 )
 MODEL_NAME = "claude-3-opus-20240229"
+#MODEL_NAME = "claude-3-sonnet-20240229"
 memory = []
 while True:
     question = input("Ask Claude: ")
