@@ -34,11 +34,11 @@ search = Tool(tool2_name, tool2_description, tool2_parameters)
 TOOLS = [wiki, search, ..]
 
 # Use the tools
-    names = [tool.name for tool in TOOLS]
-    descriptions = [tool.description for tool in TOOLS]
-    parameters = [tool.parameters for tool in TOOLS]
-    all_tools = construct_format_tool_for_claude_prompt(names, descriptions, parameters)
-    system_prompt = construct_tool_use_system_prompt([all_tools]))
+ names = [tool.name for tool in TOOLS]
+ descriptions = [tool.description for tool in TOOLS]
+ parameters = [tool.parameters for tool in TOOLS]
+ all_tools = construct_format_tool_for_claude_prompt(names, descriptions, parameters)
+ system_prompt = construct_tool_use_system_prompt([all_tools]))
 
 function_calling_message = client.messages.create(
         model=MODEL_NAME,
