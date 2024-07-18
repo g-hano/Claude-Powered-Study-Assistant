@@ -2,6 +2,8 @@
 
 This is a Python-based study assistant powered by an LLM (Large Language Model). It provides various tools to assist with different tasks related to research, coding, note-taking, and more. Below is a description of each tool along with its capabilities and usage instructions.
 
+![chart](img/chart.png)
+
 ## Tools Available
 1. Wikipedia Search
     * **_Description_**: Searches Wikipedia based on user input. Useful for scientific or specific inquiries.
